@@ -1,0 +1,19 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "A Hugo theme for creating Reveal.js presentations"
+disableKinds = ["sitemap", "RSS"]
+theme = "reveal-hugo"
+
+[author]
+name = "Gavin Rozzi"
+
+[params]
+description = "Presentation slides from the August 21st, 2018 webinar."
+
+[params.reveal_hugo]
+history = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
