@@ -1,14 +1,11 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "A Hugo theme for creating Reveal.js presentations"
+title = "Using OPRAmachine to file public records requests without the hassle"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
 
 [author]
 name = "Gavin Rozzi"
-
-[params]
-description = "Presentation slides from the August 21st, 2018 webinar."
 
 [params.reveal_hugo]
 history = true
